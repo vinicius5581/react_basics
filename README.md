@@ -1,1 +1,1 @@
-# React & Redux
+# React basics

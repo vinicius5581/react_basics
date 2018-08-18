@@ -18,15 +18,18 @@
                 age: 37
             }
 
-            handleClick(e) {
+            handleClick = (e) => {
+              this.setState({
+                name: 'Santana',
+                age: 18,
+              });
+            }
+
+            handleMouseOver = (e) => {
               console.log(e.target);
             }
 
-            handleMouseOver(e) {
-              console.log(e.target);
-            }
-
-            handleCopy(e) {
+            handleCopy = (e) => {
               console.log(e.target);
             }
 
